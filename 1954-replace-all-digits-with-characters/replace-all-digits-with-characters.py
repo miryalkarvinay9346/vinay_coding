@@ -14,9 +14,9 @@ class Solution:
             else:
                 p=int(s[i])
                 b=s[i-1]
-                k+=chr(ord(b)+p) #self.shift(b,p)
+                k+=self.shift(b,p)#chr(ord(b)+p) 
         return k
-    """def shift(self,c:str,x:int)->str:
-        return chr(ord(c)+x)"""
+    def shift(self,c:str,x:int)->str:
+        return chr(ord(c)+x)
 
         
