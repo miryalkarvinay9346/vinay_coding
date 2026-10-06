@@ -1,6 +1,6 @@
 class Solution:
     def clearDigits(self, s: str) -> str:
-        """
+        
         stack = []
         for ch in s:
             if ch.isdigit():
@@ -19,4 +19,4 @@ class Solution:
             else:
                 i += 1
         return ''.join(s)
-        
+        """
