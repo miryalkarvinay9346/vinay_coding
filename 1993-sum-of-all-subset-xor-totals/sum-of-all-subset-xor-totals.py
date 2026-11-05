@@ -1,5 +1,6 @@
 class Solution:
     def subsetXORSum(self, nums: list[int]) -> int:
+        """
         c=0
         for i in nums:
             c |=i
@@ -17,4 +18,3 @@ class Solution:
                     x ^= k[j]
                 c += x
         return c
-"""
