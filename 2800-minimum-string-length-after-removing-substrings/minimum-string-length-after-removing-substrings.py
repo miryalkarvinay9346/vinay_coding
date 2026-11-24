@@ -1,5 +1,6 @@
 class Solution:
     def minLength(self, s: str) -> int:
+        """
         a=[]
         for i in s:
             if a:
@@ -16,4 +17,4 @@ class Solution:
         while "AB" in s or "CD" in s:
             s=s.replace("AB","").replace("CD","")
         return len(s)
-        """
+        
